@@ -109,4 +109,10 @@ public:
                     {
                         stack.peek(); // Get the value of the top element
                     }
-                
+                    else
+                    {
+                        cout << "Stack is empty. No top element." << endl;
+                    }
+                    break;
+
+            
