@@ -18,3 +18,9 @@ private:
  Node* top; // Pointer to the top of the stack
 
 
+public:
+ Stack() {
+  top = NULL; // initaialize the stack with a null top pointer
+ }
+
+ 
