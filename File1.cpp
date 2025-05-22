@@ -70,3 +70,23 @@ public:
     {
         return top == NULL; // Return true if the top pointer is NULL, indicating an empty stack
     }
+
+    };
+
+    int main()
+    {
+        Stack stack;
+
+        int choice = 0;
+        int value;
+
+        while (choice != 5)
+        {
+            cout << "1. Push" << endl;
+            cout << "2. Pop" << endl;
+            cout << "3. Peek" << endl;
+            cout << "4. Exit" << endl;
+            cout << "Enter your choice: ";
+            cin >> choice;
+
+            
