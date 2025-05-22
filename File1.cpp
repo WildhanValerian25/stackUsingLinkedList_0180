@@ -33,3 +33,9 @@ public:
     return value;
  }
 
+    // Pop operation: remove and return the top element from the stack
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack is empty. " << endl;
+        }
+
